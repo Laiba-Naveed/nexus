@@ -12,7 +12,7 @@ Two checks, matching your FYP proposal:
                               already stored?
 """
 
-from memory_store import MemoryStore
+from nexus.memory_store import MemoryStore
 
 # Sources we trust more vs less. In a real system this would be more
 # detailed (e.g. "verified_user_input" vs "unverified_webpage_text").
